@@ -204,7 +204,7 @@
     "profiles" : 
     [
         {
-            "acrylicOpacity" : 0.5,
+            "acrylicOpacity" : 0.75,
             "background" : "#012456",
             "closeOnExit" : true,
             "colorScheme" : "One Half Dark",
@@ -220,7 +220,7 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
+            "useAcrylic" : true
         },
         {
             "acrylicOpacity" : 0.75,
@@ -239,10 +239,10 @@
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
             "useAcrylic" : true
-        }, {
-            "acrylicOpacity" : 0.5,
+        },{
+            "acrylicOpacity" : 0.75,
             "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
+            "colorScheme" : "One Half Light",
             "commandline" : "sh --cd-to-home",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
@@ -255,12 +255,13 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
+            "useAcrylic" : true
         },{
-            "acrylicOpacity" : 0.5,
+            "acrylicOpacity" : 0.75,
+            "background" : "#FFDB99",
             "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "commandline" : "wsl ~",
+            "colorScheme" : "Solarized Light",
+            "commandline" : "wsl.exe -d Ubuntu-18.04",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
             "fontFace" : "Fira Code",
@@ -272,24 +273,24 @@
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
-        },{
-            "acrylicOpacity" : 0.5,
+            "useAcrylic" : true
+        }, {
+            "acrylicOpacity" : 0.75,
             "closeOnExit" : true,
-            "colorScheme" : "One Half Dark",
-            "commandline" : "Kali",
+            "colorScheme" : "Solarized Dark",
+            "commandline" : "wsl.exe -d kali-linux",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
             "fontFace" : "Fira Code",
             "fontSize" : 10,
-            "guid" : "{0841d615-c109-42ea-8f5c-92cbf7bfe76e}",
+            "guid" : "{f12fd2bb-0760-45df-b3f3-252db684f941}",
             "historySize" : 9001,
             "icon" : "ms-appdata:///roaming/kali_32.png",
             "name" : "Kali",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
+            "useAcrylic" : true
         }
     ],
     "schemes" : 
