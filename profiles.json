@@ -9,6 +9,8 @@
       "hidden": false,
       "fontFace": "Cascadia Code",
       "name": "PowerShell Core",
+      "backgroundImage": "ms-appdata:///local/powershell-bg.png",
+      "backgroundImageOpacity": 0.3,
       "colorScheme": "Vintage",
       "source": "Windows.Terminal.PowershellCore",
       "fontSize": 10,
