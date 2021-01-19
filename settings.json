@@ -15,29 +15,16 @@
         "hidden": false,
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore",
-        "colorScheme": "New Campbell",
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
         "backgroundImage": "ms-appdata:///local/azure-16px-horizontal.png"
       },
       {
-        "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-        "hidden": false,
-        "name": "Ubuntu-18.04",
-        "icon": "ms-appdata:///local/ubuntu_32px.png",
-        "backgroundImage": "ms-appdata:///local/ubuntu-16px-horizontal.png",
-        "backgroundImageStretchMode": "none",
-        "backgroundImageAlignment": "bottomLeft",
-        "padding": "8, 8, 8, 24",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
         "guid": "{2d936137-a4eb-4c83-ae3d-cdc7776d379d}",
         "name": "Git Bash",
-        "commandline": "sh --cd=C:\\Repos",
+        "commandline": "sh",
         "icon": "ms-appdata:///local/git-for-windows.ico",
-        "backgroundImageOpacity": 0.1,
         "backgroundImage": "ms-appdata:///local/green-16px-horizontal.png",
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
@@ -52,7 +39,6 @@
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
-        "colorScheme": "New Campbell",
         "fontSize": 10,
         "useAcrylic": false,
         "acrylicOpacity": 0.6,
@@ -62,7 +48,6 @@
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
         "name": "Windows PowerShell",
         "commandline": "powershell.exe",
-        "colorScheme": "New Campbell",
         "backgroundImage": "ms-appdata:///local/blue-16px-horizontal.png",
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
@@ -73,7 +58,6 @@
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "name": "Prompt de comando",
         "commandline": "cmd.exe",
-        "colorScheme": "New Campbell",
         "backgroundImage": "ms-appdata:///local/cyan-16px-horizontal.png",
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
@@ -85,6 +69,17 @@
         "hidden": true,
         "name": "Azure Cloud Shell",
         "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "icon": "ms-appdata:///local/ubuntu_32px.png",
+        "backgroundImage": "ms-appdata:///local/ubuntu-16px-horizontal.png",
+        "backgroundImageStretchMode": "none",
+        "backgroundImageAlignment": "bottomLeft",
+        "padding": "8, 8, 8, 24",
+        "source": "Windows.Terminal.Wsl"
       }
     ]
   },
