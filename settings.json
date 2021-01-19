@@ -6,7 +6,7 @@
   "copyFormatting": false,
   "profiles": {
     "defaults": {
-      "fontFace": "Cascadia Code PL",
+      "fontFace": "CaskaydiaCove Nerd Font",
       "fontSize": 10,
       "colorScheme": "New Campbell"
     },
