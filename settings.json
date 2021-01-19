@@ -6,8 +6,9 @@
   "copyFormatting": false,
   "profiles": {
     "defaults": {
-      "fontFace": "Cascadia Code PL",
-      "fontSize": 10
+      "fontFace": "CaskaydiaCove Nerd Font",
+      "fontSize": 10,
+      "colorScheme": "New Campbell"
     },
     "list": [
       {
@@ -18,7 +19,8 @@
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
-        "backgroundImage": "ms-appdata:///local/azure-16px-horizontal.png"
+        "backgroundImage": "ms-appdata:///local/azure-16px-horizontal.png",
+        "tabColor": "#007FFF"
       },
       {
         "guid": "{2d936137-a4eb-4c83-ae3d-cdc7776d379d}",
@@ -28,7 +30,8 @@
         "backgroundImage": "ms-appdata:///local/green-16px-horizontal.png",
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
-        "padding": "8, 8, 8, 24"
+        "padding": "8, 8, 8, 24",
+        "tabColor": "#98C379"
       },
       {
         "guid": "{10078a2f-e869-4f71-8342-2a5f9f40678a}",
@@ -40,9 +43,7 @@
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
         "fontSize": 10,
-        "useAcrylic": false,
-        "acrylicOpacity": 0.6,
-        "hidden": false
+        "tabColor": "#7E0097"
       },
       {
         "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -52,7 +53,8 @@
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
-        "hidden": false
+        "hidden": false,
+        "tabColor": "#528BFF"
       },
       {
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -62,7 +64,7 @@
         "backgroundImageStretchMode": "none",
         "backgroundImageAlignment": "bottomLeft",
         "padding": "8, 8, 8, 24",
-        "hidden": false
+        "tabColor": "#56B6C2"
       },
       {
         "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -105,6 +107,28 @@
       "red": "#b12f2f",
       "white": "#c1c1c1",
       "yellow": "#ff9a54"
+    },
+    {
+      "name": "New Campbell",
+      "foreground": "#CCCCCC",
+      "background": "#21252B",
+      "cursorColor": "#FFFFFF",
+      "black": "#0C0C0C",
+      "red": "#C50F1F",
+      "green": "#13A10E",
+      "yellow": "#C19C00",
+      "blue": "#0037DA",
+      "purple": "#881798",
+      "cyan": "#3A96DD",
+      "white": "#CCCCCC",
+      "brightBlack": "#767676",
+      "brightRed": "#E74856",
+      "brightGreen": "#16C60C",
+      "brightYellow": "#F9F1A5",
+      "brightBlue": "#3B78FF",
+      "brightPurple": "#B4009E",
+      "brightCyan": "#61D6D6",
+      "brightWhite": "#F2F2F2"
     }
   ],
   "keybindings": [
