@@ -1,3 +1,8 @@
+#Inicia o ZSH se ele estiver instalado
+#if [ -t 1 ]; then
+#  exec zsh
+#fi
+
 export LANG=en_US.utf8
 env=~/.ssh/agent.env
 
