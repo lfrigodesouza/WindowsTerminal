@@ -10,16 +10,17 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#FFFFFF",
-          "background": "#006235",
+          "background": "#6F6B6A",
           "properties": {
-            "postfix": " "
+            "postfix": " ",
+            "wsl_separator": " \uF105 "
           }
         },
         {
           "type": "root",
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
-          "background": "#ff933a",
+          "background": "#F36943",
           "foreground": "#FFFFFF",
           "properties": {
             "postfix": " "
@@ -36,7 +37,7 @@
             "home_icon": "~",
             "style": "full",
             "postfix": " ",
-            "prefix": "<transparent>\uE0B0 \uE5FF </> "
+            "prefix": "<transparent>\uE0B0 \ue5fe </> "
           }
         },
         {
@@ -45,10 +46,17 @@
           "leading_diamond": "",
           "trailing_diamond": "\uE0B0",
           "foreground": "#000000",
-          "background": "#ffe600",
+          "background": "#16C98D",
           "properties": {
             "display_stash_count": true,
-            "prefix": "<transparent>\uE0B0</> "
+            "prefix": "<transparent>\uE0B0</> ",
+            "display_upstream_icon": true,
+            "status_colors_enabled": true,
+            "ahead_color": "#ff0000",
+            "ahead_and_behind_color": "#ff0000",
+            "behind_color": "#ff0000",
+            "local_changes_color": "#ffeb42",
+            "branch_icon": "\uE725"
           }
         },
         {
@@ -82,7 +90,7 @@
           "properties": {
             "threshold": 500,
             "style": "austin",
-            "prefix": " <#ffffff>\ufbab </>",
+            "prefix": "<#ffffff>\ufbab </>",
             "postfix": " <transparent>\uE0b2</>"
           }
         },
@@ -96,7 +104,7 @@
           "properties": {
             "display_version": false,
             "display_mode": "files",
-            "prefix": " \uE77F ",
+            "prefix": " \uE70C ",
             "postfix": "<transparent>\uE0b2</>"
           }
         },
