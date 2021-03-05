@@ -161,7 +161,7 @@
         {
           "type": "exit",
           "style": "plain",
-          "foreground": "#FFFFFF",
+          "foreground": "#55F681",
           "properties": {
             "prefix": "\ufB26",
             "always_enabled": true,
