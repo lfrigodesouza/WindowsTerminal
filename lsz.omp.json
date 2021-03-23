@@ -71,7 +71,7 @@
             "always_enabled": false,
             "error_color": "#f1184c",
             "color_background": true,
-            "prefix": "<transparent>\uE0B0</> \uf467"
+            "prefix": "<transparent>\uE0B0</> \uf467 "
           }
         }
       ]
@@ -161,7 +161,7 @@
         {
           "type": "exit",
           "style": "plain",
-          "foreground": "#55F681",
+          "foreground": "#58F374",
           "properties": {
             "prefix": "\ufB26",
             "always_enabled": true,
