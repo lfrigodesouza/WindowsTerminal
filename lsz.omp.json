@@ -30,7 +30,7 @@
         {
           "type": "path",
           "style": "diamond",
-          "leading_diamond": "",
+          "leading_diamond": "<transparent></>",
           "trailing_diamond": "\uE0B0",
           "foreground": "#000000",
           "background": "#FFFFFF",
