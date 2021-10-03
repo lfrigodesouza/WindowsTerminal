@@ -18,7 +18,8 @@
         },
         {
           "type": "root",
-          "style": "powerline",
+          "style": "diamond",
+		  "trailing_diamond": "\uE0B0",
           "powerline_symbol": "\uE0B0",
           "background": "#F36943",
           "foreground": "#FFFFFF",
@@ -48,6 +49,7 @@
           "foreground": "#000000",
           "background": "#16C98D",
           "properties": {
+			"display_status": true,
             "display_stash_count": true,
             "prefix": "<transparent>\uE0B0</> ",
             "display_upstream_icon": true,
@@ -106,6 +108,34 @@
             "display_mode": "files",
             "prefix": " \uE70C ",
             "postfix": "<transparent>\uE0b2</>"
+          }
+        },
+		{
+          "type": "python",
+          "style": "diamond",
+          "leading_diamond": "\uE0B2",
+          "trailing_diamond": "",
+		  "foreground": "#FFDD56",
+          "background": "#417FB0",
+          "properties": {
+            "display_mode": "files",
+            "display_version": false,
+            "postfix": "<transparent>\uE0b2</>",
+            "prefix": " \uE235 "
+          }
+        },
+				{
+          "type": "dart",
+          "style": "diamond",
+          "leading_diamond": "\uE0B2",
+          "trailing_diamond": "",
+		  "foreground": "#03589C",
+          "background": "#2BB7F6",
+          "properties": {
+            "display_mode": "files",
+            "display_version": false,
+            "postfix": "<transparent>\uE0b2</>",
+            "prefix": " \uE798 "
           }
         },
         {
