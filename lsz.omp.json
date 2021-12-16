@@ -65,13 +65,13 @@
           "type": "exit",
           "style": "diamond",
           "foreground": "#ffffff",
-          "background": "#2e9599",
+          "background": "#00897b",
           "leading_diamond": "",
           "trailing_diamond": "\uE0B0",
           "properties": {
-            "display_exit_code": false,
+            "display_exit_code": true,
             "always_enabled": false,
-            "error_color": "#f1184c",
+            "error_color": "#ff5555",
             "color_background": true,
             "prefix": "<transparent>\uE0B0</> \uf467 "
           }
@@ -110,7 +110,7 @@
             "postfix": "<transparent>\uE0b2</>"
           }
         },
-		{
+        {
           "type": "python",
           "style": "diamond",
           "leading_diamond": "\uE0B2",
@@ -124,7 +124,7 @@
             "prefix": " \uE235 "
           }
         },
-				{
+        {
           "type": "dart",
           "style": "diamond",
           "leading_diamond": "\uE0B2",
@@ -153,12 +153,30 @@
           }
         },
         {
+          "type": "owm",
+          "style": "diamond",
+          "leading_diamond": "\uE0B2",
+          "trailing_diamond": "",
+          "foreground": "#000000",
+          "background": "#8be9fd",
+          "properties": {
+            "postfix": " <transparent>\uE0b2</>",
+            "apikey": "",
+            "units": "metric",
+            "location":"São Paulo,BR",
+            "enable_hyperlink" : false,
+            "http_timeout": 1000,
+            "cache":10,
+            "template": "{{.Weather}} ({{.Temperature}}{{.UnitIcon}})"
+          }
+        },
+        {
           "type": "time",
           "style": "diamond",
           "leading_diamond": "\uE0B2",
           "trailing_diamond": "",
           "foreground": "#000000",
-          "background": "#00e1ff",
+          "background": "#50fa7b",
           "properties": {
             "postfix": " <#000000>\uF017</> <transparent>\uE0b2</>",
             "time_format": "15:04:05"
@@ -170,13 +188,18 @@
           "leading_diamond": "\uE0B2",
           "trailing_diamond": "",
           "foreground": "#FFFFFF",
-          "background": "#ff9900",
-          "properties": {
-            "prefix": " ",
-            "discharging_icon": "\uF582",
-            "color_background": true,
+          "background": "#ffeb3b",
+          "background_templates": [
+            "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
+            "{{if eq \"Full\" .State.String}}#4caf50{{end}}"
+          ],
+            "properties": {
+            "discharging_icon": "\uE231 ",
+            "charging_icon": "\uE234 ",
+            "charged_icon": "\uE22F ",
             "postfix": "\uF295 ",
-            "display_charging": false
+            "template": "{{ if not .Error }}{{.Icon}}{{.Percentage}}{{ end }}"
           }
         }
       ]
@@ -191,7 +214,7 @@
         {
           "type": "exit",
           "style": "plain",
-          "foreground": "#58F374",
+          "foreground": "#50fa7b",
           "properties": {
             "prefix": "\ufB26",
             "always_enabled": true,
